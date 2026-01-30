@@ -180,10 +180,10 @@ const App = () => {
               <div className="relative">
                 <div className="absolute -inset-4 bg-blue-100 rounded-2xl rotate-3 -z-10"></div>
                 <img
-                  src="public/images/Sumit.jpeg"
-                  alt="Sumit Chaurasiya Profile"
-                  className="rounded-2xl shadow-xl w-full h-[500px] object-cover border-8 border-white"
-                />
+                    src={import.meta.env.BASE_URL + "images/profile.jpg"}  // <--- THE FIX
+                    alt="Sumit Chaurasiya Profile"
+                    className="rounded-2xl shadow-xl w-full h-[500px] object-cover border-8 border-white"
+/>
                 <div className="absolute bottom-6 left-6 bg-white p-4 rounded-lg shadow-lg max-w-[200px]">
                   <p className="text-sm font-bold text-blue-900">Experience</p>
                   <p className="text-slate-600 text-xs">Teaching professionally since 2022</p>
