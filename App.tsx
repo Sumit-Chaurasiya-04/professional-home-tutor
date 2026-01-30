@@ -180,7 +180,7 @@ const App = () => {
               <div className="relative">
                 <div className="absolute -inset-4 bg-blue-100 rounded-2xl rotate-3 -z-10"></div>
                 <img
-                  src="/public/images/Sumit.jpeg"
+                  src="public/images/Sumit.jpeg"
                   alt="Sumit Chaurasiya Profile"
                   className="rounded-2xl shadow-xl w-full h-[500px] object-cover border-8 border-white"
                 />
@@ -344,7 +344,7 @@ const App = () => {
             
             <div className="order-1 lg:order-2">
               <img 
-                src="https://www.pexels.com/photo/man-holding-a-sheet-of-data-8370392/" 
+                src="https://images.pexels.com/photos/8370392/pexels-photo-8370392.jpeg" 
                 alt="Structured Learning Environment" 
                 className="rounded-2xl shadow-lg w-full h-auto"
               />
