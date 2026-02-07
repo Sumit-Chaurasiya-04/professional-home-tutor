@@ -182,7 +182,7 @@ const App = () => {
                 <img
                     src={import.meta.env.BASE_URL + "images/profile.jpg"}  // <--- THE FIX
                     alt="Sumit Chaurasiya Profile"
-                    className="rounded-2xl shadow-xl w-full h-[500px] object-cover border-8 border-white"
+                    className="rounded-2xl shadow-xl w-full h-auto object-cover border-8 border-white"
 />
                 <div className="absolute bottom-6 left-6 bg-white p-4 rounded-lg shadow-lg max-w-[200px]">
                   <p className="text-sm font-bold text-blue-900">Experience</p>
